@@ -1,0 +1,149 @@
+body{
+  width:85%;
+  margin:auto;
+  font-size:1.2em;
+  font-family:'Times New Roman', Times, serif;
+}
+
+.logo img{
+   width:65%;
+ 
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav{
+  margin-left:-30px;
+}
+
+header nav ul li{
+  list-style-type:none;
+}
+
+header nav ul li a{
+  text-decoration:none;
+  margin-left:20px;
+}
+
+nav ul{
+  display: flex;
+} 
+
+.bannière img{
+  width: 100%;
+  margin-top:-5px;
+}
+
+.bannière{
+  background:url("Images/background_image.jpg") no-repeat fixed ;
+}
+
+.logo_background{
+  position:relative;
+  bottom:300px;
+  /* margin:auto; */
+  display: flex;
+  justify-content: center;
+}
+
+.logo_background img{
+   width:16%;
+}
+
+ .text{
+  position:absolute;
+  bottom: 250px;
+  left:550px;
+  color:white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+
+ #phrase_bas{
+    text-align:center;
+    margin-bottom:5%;
+ }
+
+ .element{
+   width:300px; 
+ }
+
+  #conteneur{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+
+  .element img{
+    padding-left:28%;
+    
+  }
+
+ .element h3 {
+   padding-right:18%;
+   text-align: center;
+}
+
+ .element p ,.paragraphe_2,.Amandine ,h5 ,#icones{
+  text-align:center;
+}
+  
+ .element p{
+  margin-top:0px;
+  margin-bottom:0px;
+}
+
+ .paragraphe_2{
+    margin-top: 7%;
+}
+
+ footer{
+   width:95%;
+   background-color: #6d009e;
+   color:white;
+}
+ 
+
+ footer nav ul{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+
+
+ footer nav li{
+  margin-left: 0%;
+}
+
+
+ footer h2{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+ .conteneur_footer{
+  display: flex;
+  justify-content: space-between;
+  padding-top:5%;
+ 
+}
+
+footer h4{
+  padding-left:14%;
+}
+
+
+ footer nav ul li{
+  text-align:center;
+}
+
+ footer #n_1 li{
+   list-style-type:none;
+ }
+
+ 
+
